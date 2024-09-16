@@ -97,7 +97,7 @@ export default function PDFViewer() {
     const fileId = FILE_ID;
     const apiKey = API_KEY;
     const fileUrl = `https://www.googleapis.com/drive/v3/files/${fileId}?alt=media&key=${apiKey}`;
-    const fileName = "HCM202.pdf";
+    const fileName = "GTHCM202.pdf";
 
     const a = document.createElement("a");
     a.href = fileUrl;
@@ -108,9 +108,17 @@ export default function PDFViewer() {
   };
 
   useEffect(() => {
-    const pdfPath = `${process.env.PUBLIC_URL}/HCM202.pdf`;
+    const pdfPath = `${process.env.PUBLIC_URL}/GTHCM202.pdf`;
     loadPDF(pdfPath);
   }, []);
+
+  // Function to navigate to a specific page when clicking on a list item
+  const handleNavigateToPage = (pageNum) => {
+    if (currentPDF.file) {
+      setCurrentPDF((prev) => ({ ...prev, currentPage: pageNum }));
+      renderPage(currentPDF.file, pageNum, currentPDF.zoom);
+    }
+  };
 
   return (
     <>
@@ -161,36 +169,54 @@ export default function PDFViewer() {
           <div className="bg-white shadow-lg rounded-lg p-6 flex flex-col space-y-4 mb-10">
             <h2 className="text-2xl font-bold mb-4">Danh sách mục lục</h2>
             <ul className="flex flex-col space-y-6">
-              <li className="bg-gray-100 hover:bg-gray-200 text-lg p-5 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200 cursor-pointer">
+              <li
+                onClick={() => handleNavigateToPage(9)}
+                className="bg-gray-100 hover:bg-gray-200 text-lg p-5 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200 cursor-pointer"
+              >
                 <span className="font-semibold">
                   1. Khái niệm, đối tượng, phương pháp nghiên cứu và ý nghĩa học
                   tập môn tư tưởng Hồ Chí Minh
                 </span>
               </li>
-              <li className="bg-gray-100 hover:bg-gray-200 text-lg p-5 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200 cursor-pointer">
+              <li
+                onClick={() => handleNavigateToPage(21)}
+                className="bg-gray-100 hover:bg-gray-200 text-lg p-5 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200 cursor-pointer"
+              >
                 <span className="font-semibold">
                   2. Cơ sở, quá trình hình thành và phát triển tư tưởng Hồ Chí
                   Minh
                 </span>
               </li>
-              <li className="bg-gray-100 hover:bg-gray-200 text-lg p-5 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200 cursor-pointer">
+              <li
+                onClick={() => handleNavigateToPage(43)}
+                className="bg-gray-100 hover:bg-gray-200 text-lg p-5 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200 cursor-pointer"
+              >
                 <span className="font-semibold">
                   3. Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội
                 </span>
               </li>
-              <li className="bg-gray-100 hover:bg-gray-200 text-lg p-5 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200 cursor-pointer">
+              <li
+                onClick={() => handleNavigateToPage(71)}
+                className="bg-gray-100 hover:bg-gray-200 text-lg p-5 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200 cursor-pointer"
+              >
                 <span className="font-semibold">
                   4. Tư tưởng Hồ Chí Minh về Đảng Cộng sản Việt Nam và Nhà nước
                   của nhân dân, do nhân dân, vì nhân dân
                 </span>
               </li>
-              <li className="bg-gray-100 hover:bg-gray-200 text-lg p-5 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200 cursor-pointer">
+              <li
+                onClick={() => handleNavigateToPage(96)}
+                className="bg-gray-100 hover:bg-gray-200 text-lg p-5 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200 cursor-pointer"
+              >
                 <span className="font-semibold">
                   5. Tư tưởng Hồ Chí Minh về đại đoàn kết toàn dân tộc và đoàn
                   kết quốc tế
                 </span>
               </li>
-              <li className="bg-gray-100 hover:bg-gray-200 text-lg p-5 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200 cursor-pointer">
+              <li
+                onClick={() => handleNavigateToPage(114)}
+                className="bg-gray-100 hover:bg-gray-200 text-lg p-5 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200 cursor-pointer"
+              >
                 <span className="font-semibold">
                   6. Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người
                 </span>
