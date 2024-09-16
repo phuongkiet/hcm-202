@@ -1,7 +1,6 @@
 import PDFViewer from "./PDFViewer";
 
 export default function Overview() {
-
   return (
     <>
       <div>
@@ -48,8 +47,31 @@ export default function Overview() {
           </div>
         </div>
       </div>
+
+      <div className="bg-gray-50">
+        <div className="container mx-auto mt-20 mb-10 py-10">
+          <h2 className="text-4xl font-bold mb-4">Tổng Quan Môn Học</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div className="text-center md:text-left">
+              <p className="text-xl text-justify px-5 sm:px-0">
+                Môn học <b>Tư tưởng Hồ Chí Minh</b> là một học phần quan trọng
+                trong chương trình đào tạo đại học, giúp sinh viên hiểu rõ hơn
+                về cuộc đời, sự nghiệp và hệ thống tư tưởng của Chủ tịch Hồ Chí
+                Minh. Nội dung của môn học bao gồm những giá trị cốt lõi trong
+                tư tưởng Hồ Chí Minh về độc lập dân tộc, chủ nghĩa xã hội, Đảng
+                Cộng sản, nhà nước pháp quyền, và đạo đức cách mạng. Thông qua
+                môn học, sinh viên sẽ nắm vững được tư tưởng chiến lược của
+                Người trong công cuộc xây dựng và bảo vệ Tổ quốc, cũng như vận
+                dụng các bài học quý báu này vào thực tiễn đời sống xã hội hiện
+                nay.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div>
-        <PDFViewer/>
+        <PDFViewer />
       </div>
     </>
   );

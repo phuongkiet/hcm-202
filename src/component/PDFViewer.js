@@ -110,11 +110,11 @@ export default function PDFViewer() {
   useEffect(() => {
     const pdfPath = `${process.env.PUBLIC_URL}/HCM202.pdf`;
     loadPDF(pdfPath);
-  });
+  }, []);
 
   return (
     <>
-      <div className="flex flex-col items-center justify-center min-h-screen bg-gray-50">
+      <div className="flex flex-col items-center justify-center min-h-scree">
         <h1 className="text-4xl font-bold my-10">Giáo Trình Môn Học</h1>
 
         {/* Two Column Layout */}
@@ -124,7 +124,7 @@ export default function PDFViewer() {
             <div className="controls mb-4 flex flex-col items-center space-y-4 sm:space-y-0 sm:flex-row sm:space-x-4">
               <button
                 onClick={handleDownload}
-                className="bg-orange-600 hover:bg-orange-700 text-white py-2 px-4 rounded-full shadow-md transition-all"
+                className="bg-orange-600 hover:bg-orange-700 text-white py-2 px-4 rounded-full shadow-lg transition-all"
               >
                 Tải giáo trình
               </button>

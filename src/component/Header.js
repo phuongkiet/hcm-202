@@ -1,9 +1,11 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import { Dialog, DialogPanel } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/16/solid";
 
 const Header = ({ activeSection }) => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  
   return (
     <>
       <header className="bg-orange-600 w-full top-0 z-10">
@@ -25,30 +27,30 @@ const Header = ({ activeSection }) => {
             </button>
           </div>
           <div className="hidden lg:flex lg:gap-x-12">
-            <a
-              href="#home"
+            <Link
+              to="/"
               className={`text-sm font-semibold leading-6 ${
                 activeSection === "home" ? "text-blue-600" : "text-white"
               } hover:text-white hover:bg-blue-600 hover:shadow-lg hover:shadow-blue-600/40 hover:rounded-lg hover:px-2`}
             >
               Trang chủ
-            </a>
-            <a
-              href="#content"
+            </Link>
+            <Link
+              to="/content"
               className={`text-sm font-semibold leading-6 ${
                 activeSection === "content" ? "text-blue-600" : "text-white"
               } hover:text-white hover:bg-blue-600 hover:shadow-lg hover:shadow-blue-600/40 hover:rounded-lg hover:px-2`}
             >
               Nội dung
-            </a>
-            <a
-              href="#quiz"
+            </Link>
+            <Link
+              to="/quiz"
               className={`text-sm font-semibold leading-6 ${
                 activeSection === "quiz" ? "text-blue-600" : "text-white"
               } hover:text-white hover:bg-blue-600 hover:shadow-lg hover:shadow-blue-600/40 hover:rounded-lg hover:px-2`}
             >
               Quiz
-            </a>
+            </Link>
           </div>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end"></div>
         </nav>
@@ -60,14 +62,10 @@ const Header = ({ activeSection }) => {
           <div className="fixed inset-0 z-10" />
           <DialogPanel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
             <div className="flex items-center justify-between">
-              <a href="#" className="-m-1.5 p-1.5">
+              <Link to="/" className="-m-1.5 p-1.5">
                 <span className="sr-only">Your Company</span>
-                <img
-                  alt=""
-                  src="fptlogocolor.png"
-                  className="h-8 w-auto"
-                />
-              </a>
+                <img alt="Logo" src="fptlogocolor.png" className="h-8 w-auto" />
+              </Link>
               <button
                 type="button"
                 onClick={() => setMobileMenuOpen(false)}
@@ -80,24 +78,27 @@ const Header = ({ activeSection }) => {
             <div className="mt-6 flow-root">
               <div className="-my-6 divide-y divide-gray-500/10">
                 <div className="space-y-2 py-6">
-                  <a
-                    href="#"
+                  <Link
+                    to="/"
+                    onClick={() => setMobileMenuOpen(false)}
                     className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                   >
                     Trang chủ
-                  </a>
-                  <a
-                    href="#"
+                  </Link>
+                  <Link
+                    to="/content"
+                    onClick={() => setMobileMenuOpen(false)}
                     className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                   >
                     Nội dung
-                  </a>
-                  <a
-                    href="#"
+                  </Link>
+                  <Link
+                    to="/quiz"
+                    onClick={() => setMobileMenuOpen(false)}
                     className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                   >
                     Quiz
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
