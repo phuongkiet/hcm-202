@@ -1,5 +1,65 @@
 [
     {
+      "question": "Nguyễn Ái Quốc đọc `Sơ thảo lần thứ nhất những luận cương về vấn đề dân tộc và vấn đề thuộc địa` của Lênin vào thời gian nào?",
+      "options": ["7/1917", "7/1918", "7/1919", "7/1920"],
+      "answer": "7/1920"
+    },
+    {
+      "question": "Chọn phương án trả lời đúng nhất?",
+      "options": ["Chủ nghĩa Mác - Lênin là nền tảng tư tưởng, kim chỉ nam cho hành động của Đảng", "Tư tưởng Hồ Chí Minh là nền tảng tư tưởng, kim chỉ nam cho hành động của Đảng", "Cùng với chủ nghĩa Mác - Lênin, tư tưởng Hồ Chí Minh là nền tảng tư tưởng và kim chỉ nam cho hành động của Đảng ta"],
+      "answer": "Cùng với chủ nghĩa Mác - Lênin, tư tưởng Hồ Chí Minh là nền tảng tư tưởng và kim chỉ nam cho hành động của Đảng ta"
+    },
+    {
+      "question": "What is the chemical symbol for water?",
+      "options": ["H2O", "O2", "CO2", "NaCl"],
+      "answer": "H2O"
+    },
+    {
+      "question": "What is the capital of France?",
+      "options": ["Paris", "London", "Berlin", "Madrid"],
+      "answer": "Paris"
+    },
+    {
+      "question": "Who wrote 'Hamlet'?",
+      "options": ["Shakespeare", "Charles Dickens", "J.K. Rowling", "Hemingway"],
+      "answer": "Shakespeare"
+    },
+    {
+      "question": "What is the chemical symbol for water?",
+      "options": ["H2O", "O2", "CO2", "NaCl"],
+      "answer": "H2O"
+    },
+    {
+      "question": "What is the capital of France?",
+      "options": ["Paris", "London", "Berlin", "Madrid"],
+      "answer": "Paris"
+    },
+    {
+      "question": "Who wrote 'Hamlet'?",
+      "options": ["Shakespeare", "Charles Dickens", "J.K. Rowling", "Hemingway"],
+      "answer": "Shakespeare"
+    },
+    {
+      "question": "What is the chemical symbol for water?",
+      "options": ["H2O", "O2", "CO2", "NaCl"],
+      "answer": "H2O"
+    },
+    {
+      "question": "What is the capital of France asdasdasdasdasdasdasdas dasdasdasdasdasdasdasdasdasdas?",
+      "options": ["Paris asdasd asdasdas dasdasda sdasdasd asd asdasd asdasd adasd asd", "London", "Berlin", "Madrid"],
+      "answer": "Paris"
+    },
+    {
+      "question": "Who wrote 'Hamlet'?",
+      "options": ["Shakespeare", "Charles Dickens", "J.K. Rowling", "Hemingway"],
+      "answer": "Shakespeare"
+    },
+    {
+      "question": "What is the chemical symbol for water?",
+      "options": ["H2O", "O2", "CO2", "NaCl"],
+      "answer": "H2O"
+    },
+    {
       "question": "What is the capital of France?",
       "options": ["Paris", "London", "Berlin", "Madrid"],
       "answer": "Paris"
