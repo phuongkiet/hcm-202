@@ -21,14 +21,12 @@ const ChatBox = () => {
     setInput("");
     try {
       const API_KEY = process.env.REACT_APP_GEMINI_API_KEY;
-      console.log(API_KEY)
       const response = await axios.post(
         `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=${API_KEY}`,
         {
           contents: [{ parts: [{ text: input }] }],
         }
       );
-      console.log(response);
       const botMessageText = response.data?.candidates?.[0]?.content?.parts?.[0]
         ?.text
         ? response.data.candidates[0].content.parts[0].text
