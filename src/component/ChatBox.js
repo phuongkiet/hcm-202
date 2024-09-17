@@ -21,17 +21,19 @@ const ChatBox = () => {
     setInput("");
     try {
       const API_KEY = process.env.REACT_APP_GEMINI_API_KEY;
+      console.log(API_KEY)
       const response = await axios.post(
         `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=${API_KEY}`,
         {
           contents: [{ parts: [{ text: input }] }],
         }
       );
-
-      const botMessageText = response.data?.candidates?.[0]?.content?.parts?.[0]?.text
+      console.log(response);
+      const botMessageText = response.data?.candidates?.[0]?.content?.parts?.[0]
+        ?.text
         ? response.data.candidates[0].content.parts[0].text
         : "Sorry, I don't understand";
-      
+
       const botMessage = { text: botMessageText, sender: "gemini" };
       setMessages((prev) => [...prev, botMessage]);
     } catch (error) {
@@ -65,9 +67,9 @@ const ChatBox = () => {
   }, []);
 
   return (
-    <div className="fixed bottom-5 right-5">
+    <div className="fixed bottom-5 right-5 md:bottom-5 md:right-5">
       {isOpen ? (
-        <div className="flex flex-col w-72 h-96 bg-white shadow-lg border rounded-lg">
+        <div className="flex flex-col w-full max-w-xs md:max-w-sm lg:max-w-md h-96 bg-white shadow-lg border rounded-lg">
           <div className="flex items-center justify-between p-3 bg-blue-500 text-white rounded-t-lg">
             <div className="flex items-center space-x-2">
               <img
@@ -81,7 +83,6 @@ const ChatBox = () => {
               <FaRegWindowMinimize />
             </button>
           </div>
-
           <div className="flex-grow p-3 overflow-y-auto">
             {messages.map((message, index) => (
               <div
@@ -107,7 +108,6 @@ const ChatBox = () => {
             ))}
             <div ref={messagesEndRef} />
           </div>
-
           <div className="p-3 bg-gray-100 flex items-center">
             <input
               type="text"
@@ -127,10 +127,10 @@ const ChatBox = () => {
         </div>
       ) : (
         <button
-          className="bg-blue-500 text-white p-4 rounded-full shadow-lg"
+          className="bg-blue-500 text-white p-3 rounded-full shadow-lg text-2xl sm:text-md"
           onClick={toggleChat}
         >
-          <FaMessage/>
+          <FaMessage />
         </button>
       )}
     </div>

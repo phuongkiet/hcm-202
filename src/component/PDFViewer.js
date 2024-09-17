@@ -96,6 +96,7 @@ export default function PDFViewer() {
   const handleDownload = () => {
     const fileId = FILE_ID;
     const apiKey = API_KEY;
+    console.log(FILE_ID, " + " ,API_KEY)
     const fileUrl = `https://www.googleapis.com/drive/v3/files/${fileId}?alt=media&key=${apiKey}`;
     const fileName = "GTHCM202.pdf";
 
@@ -108,7 +109,7 @@ export default function PDFViewer() {
   };
 
   useEffect(() => {
-    const pdfPath = `${process.env.PUBLIC_URL}/GTHCM202.pdf`;
+    const pdfPath = `GTHCM202.pdf`;
     loadPDF(pdfPath);
   }, []);
 
