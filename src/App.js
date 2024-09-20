@@ -7,6 +7,9 @@ import Quiz from "./component/Quiz";
 import Content from "./component/Content"; 
 import ChatBox from "./component/ChatBox";
 import './App.css';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
 
 function App() {
   return (
