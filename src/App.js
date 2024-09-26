@@ -16,7 +16,7 @@ function App() {
     <Router>
       <div className="flex flex-col min-h-screen">
         <Header />
-        <main className="flex-grow w-full text-center mb-10">
+        <main className="flex-grow w-full text-center">
           <Routes>
             <Route path="/" element={<Overview />} />
             <Route path="/content" element={<Content />} />

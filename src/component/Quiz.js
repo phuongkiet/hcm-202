@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import questionsData from "../data/questionbank.json"; // Assuming questionsData is the question bank.
+import questionsData from "../data/questionbank.json"; 
 
 export default function Quiz() {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
@@ -7,14 +7,13 @@ export default function Quiz() {
   const [answers, setAnswers] = useState([]);
   const [gameFinished, setGameFinished] = useState(false);
 
-  // Load and shuffle questions at the start or when restarting the game
   useEffect(() => {
     shuffleAndPickQuestions();
   }, []);
 
   const shuffleAndPickQuestions = () => {
     const shuffledQuestions = [...questionsData].sort(() => 0.5 - Math.random());
-    const selectedQuestions = shuffledQuestions.slice(0, 10); // Pick the first 10 questions from the shuffled array
+    const selectedQuestions = shuffledQuestions.slice(0, 10); 
     setCurrentQuestions(selectedQuestions);
     setCurrentQuestionIndex(0);
     setAnswers([]);
@@ -33,7 +32,7 @@ export default function Quiz() {
   };
 
   const restartGame = () => {
-    shuffleAndPickQuestions(); // Reshuffle and pick new questions
+    shuffleAndPickQuestions(); 
   };
 
   if (gameFinished) {
