@@ -1,112 +1,152 @@
 [
   {
-    "question": "Cán bộ, công chức xa dân, quan liêu, hách dịch, cửa quyền... đối với nhân dân đều dẫn đến nguy cơ làm suy yếu Nhà nước, vì đã vi phạm một điều có tính chất cốt tử của cấu tạo quyền lực nhà nước là tất cả mọi quyền lực:",
-    "options": ["Do liên minh công-nông.", "Thuộc về Nhà nước.", "Dựa vào công-nông.", "Thuộc về nhân dân."],
-    "answer": "Thuộc về nhân dân."
+    "question": "Luận điểm nào của Hồ Chí Minh nói về chức năng của văn hóa?",
+    "options": [
+      "Kháng chiến hóa văn hóa, văn hóa hóa kháng chiến",
+      "Văn hóa cũng là 1 mặt trận",
+      "Xây dựng chính trị: dân quyền",
+      "Văn hóa phải thiết thực phục vụ nhân dân, góp phần vào việc nâng cao đời sống vui tươi, lành mạnh của quần chúng"
+    ],
+    "answer": "Văn hóa phải thiết thực phục vụ nhân dân, góp phần vào việc nâng cao đời sống vui tươi, lành mạnh của quần chúng"
   },
   {
-    "question": "Hồ Chí Minh yêu cầu về đội ngũ cán bộ, công chức phải có:",
-    "options": ["Liên hệ mật thiết với nhân dân.", "Quan hệ tốt với nhân dân.", "Thâm niên trong công việc.", "Ảnh hưởng tốt với nhân dân."],
-    "answer": "Liên hệ mật thiết với nhân dân."
+    "question": "Hoàn thiện câu sau đây của Hồ Chí Minh: 'Văn hóa phải [...] cho quốc dân đi'",
+    "options": [
+      "Mở đường",
+      "Chỉ đường",
+      "Soi đường",
+      "Dẫn đường"
+    ],
+    "answer": "Soi đường"
   },
   {
-    "question": "Ai là người đầu tiên được Hồ Chí Minh phong hàm đại tướng?",
-    "options": ["Võ Nguyên Giáp", "Nguyễn Sơn", "Nguyễn Chí Thanh"],
-    "answer": "Võ Nguyên Giáp"
+    "question": "Theo Hồ Chí Minh, chức năng của văn hóa là?",
+    "options": [
+      "Bồi dưỡng tư tưởng đúng đắn và tình cảm cao đẹp",
+      "Nâng cao dân trí",
+      "Bồi dưỡng những phẩm chất và phong cách tốt đẹp",
+      "Tất cả đều đúng"
+    ],
+    "answer": "Tất cả đều đúng"
   },
   {
-    "question": "Theo Hồ Chí Minh, xây dựng nhà nước trong sạch vững mạnh cần phải:",
-    "options": ["Tăng cường tính nghiêm minh của pháp luật đi đôi với giáo dục đạo đức cách mạng", "Tăng cường tính nghiêm minh của pháp luật đi đôi với giáo dục đạo đức cán bộ", "Tăng cường tính nghiêm minh của pháp luật đi đôi với giáo dục đạo đức quần chúng"],
-    "answer": "Tăng cường tính nghiêm minh của pháp luật đi đôi với giáo dục đạo đức cách mạng"
+    "question": "Theo Hồ Chí Minh, muốn thức tỉnh 1 dân tộc trước hết phải thức tỉnh bộ phận dân cư nào?",
+    "options": [
+      "Thanh niên",
+      "Trí thức",
+      "Phụ nữ",
+      "Nông dân"
+    ],
+    "answer": "Thanh niên"
   },
   {
-    "question": "Nguyễn Ái Quốc đọc 'Sơ thảo lần thứ nhất những luận cương về vấn đề dân tộc và vấn đề thuộc địa' của Lênin vào thời gian nào?",
-    "options": ["7/1917", "7/1918", "7/1919", "7/1920"],
-    "answer": "7/1920"
+    "question": "Trong cách mạng dân tộc dân chủ nhân dân, nền văn hóa mới có những tính chất nào?",
+    "options": [
+      "Dân tộc, đại chúng, hiện đại",
+      "Dân tộc, khoa học, dân chúng",
+      "Dân tộc, khoa học, đại chúng",
+      "Dân tộc, khoa học, quần chúng"
+    ],
+    "answer": "Dân tộc, khoa học, đại chúng"
   },
   {
-    "question": "Hồ Chí Minh mất bao nhiêu năm bôn ba nước ngoài để tìm đường cứu nước?",
-    "options": ["10 năm", "25 năm", "30 năm", "35 năm"],
-    "answer": "30 năm"
+    "question": "Hồ Chí Minh đánh giá cao nhất yếu tố nào trong giá trị văn hóa dân tộc?",
+    "options": [
+      "Lòng yêu nước",
+      "Ý thức đoàn kết cộng đồng",
+      "Lòng thương người",
+      "Yêu lao động"
+    ],
+    "answer": "Lòng yêu nước"
   },
   {
-    "question": "Văn hoá phương Tây nào sau đây ảnh hưởng đến sự hình thành tư tưởng Hồ Chí Minh trước khi người ra đi tìm đường cứu nước?",
-    "options": ["Văn hoá dân chủ, tiến bộ của Đức", "Văn hoá dân chủ, tiến bộ của Pháp", "Văn hoá dân chủ, tiến bộ của Nga", "Văn hóa dân chủ, tiến bộ của Anh"],
-    "answer": "Văn hoá dân chủ, tiến bộ của Pháp"
+    "question": "Tư tưởng đạo đức của Hồ Chí Minh bắt nguồn từ?",
+    "options": [
+      "Truyền thống đạo đức của dân tộc Việt Nam",
+      "Kế thừa tư tưởng đạo đức phương Đông và tinh hoa văn hóa nhân loại",
+      "Tư tưởng đạo đức và những tấm gương đạo đức của Marx, Engels, Lenin",
+      "Tất cả đều đúng"
+    ],
+    "answer": "Tất cả đều đúng"
   },
   {
-    "question": "Nguyễn Tất Thành ở Anh vào thời gian nào?",
-    "options": ["1911-1912", "1912-1913", "1914-1917", "1911-1915"],
-    "answer": "1911-1912"
+    "question": "Phẩm chất đạo đức cơ bản của con người Việt Nam trong thời đại mới theo tư tưởng Hồ Chí Minh là?",
+    "options": [
+      "Trung với nước, hiếu với dân. Yêu thương con người",
+"Cần, kiệm, liêm, chính và chí công vô tư",
+      "Có tinh thần quốc tế trong sáng",
+      "Cả A, B và C"
+    ],
+    "answer": "Cả A, B và C"
   },
   {
-    "question": "Ngoại ngữ nào sau đây được Hồ Chí Minh sử dụng trong thời gian học tập ở trường Quốc học Huế?",
-    "options": ["Tiếng Anh", "Tiếng Pháp", "Tiếng Trung", "Tiếng Nga"],
-    "answer": "Tiếng Pháp"
+    "question": "Con người theo quan niệm của Hồ Chí Minh là?",
+    "options": [
+      "Vốn quý nhất, nhân tố quan trọng của cách mạng",
+      "Vốn quý nhất, nhân tố quyết định thành công của cách mạng",
+      "Vốn quý của cách mạng",
+      "Động lực của cách mạng"
+    ],
+    "answer": "Vốn quý nhất, nhân tố quyết định thành công của cách mạng"
   },
   {
-    "question": "Theo Hồ Chí Minh, ưu điểm lớn nhất của chủ nghĩa Tam dân của Tôn Trung Sơn là gì?",
-    "options": ["Chống phong kiến.", "Đấu tranh vì tự do, dân chủ.", "Phù hợp với điều kiện thực tế nước ta."],
-    "answer": "Đấu tranh vì tự do, dân chủ."
+    "question": "Theo Hồ Chí Minh: '[...] là gốc của cách mạng'",
+    "options": [
+      "Tài năng",
+      "Đạo đức",
+      "Bản lĩnh chính trị",
+      "Phẩm chất chính trị"
+    ],
+    "answer": "Đạo đức"
   },
   {
-    "question": "Đoạn viết sau đây ghi lại các điều kiện hình thành tư tưởng Hồ Chí Minh. Điều kiện nào bị viết sai?",
-    "options": ["Nhu cầu khách quan và bức thiết do cách mạng Việt Nam đặt ra là muốn cứu nước, phải tìm một con đường cách mạng mới.", "Quê hương Hồ Chí Minh là mảnh đất giàu truyền thống yêu nước, chống giặc ngoại xâm.", "Hồ Chí Minh sinh ra trong một gia đình nhà Nho yêu nước, gần gũi nhân dân, cụ thân sinh có tư tưởng thương dân, chủ trương lấy dân làm hậu thuẫn cho mọi cải cách chính trị.", "Ngay từ khi còn nhỏ ở trong trường, Hồ Chí Minh đã nhận thức được đặc điểm thời đại."],
-    "answer": "Ngay từ khi còn nhỏ ở trong trường, Hồ Chí Minh đã nhận thức được đặc điểm thời đại."
+    "question": "Hồ Chí Minh đề cập đến đạo đức trong những quan hệ nào sau đây?",
+    "options": [
+      "Đối với mình",
+      "Đối với người",
+      "Đối với việc",
+      "Cả A, B và C"
+    ],
+    "answer": "Cả A, B và C"
   },
   {
-    "question": "Nguyễn Ái Quốc đến Liên Xô lần đầu khi nào?",
-    "options": ["1921", "1922", "1923", "1924"],
-    "answer": "1922"
+    "question": "Theo tư tưởng Hồ Chí Minh, để phát huy động lực con người, cần phải?",
+    "options": [
+      "Phát huy sức mạnh của cả cộng đồng dân tộc và sức mạnh của cá nhân người lao động",
+      "Phát huy sức mạnh đoàn kết của cả cộng đồng dân tộc",
+      "Phát huy sức mạnh của cá nhân con người",
+      "Kêu gọi toàn dân"
+    ],
+    "answer": "Phát huy sức mạnh của cả cộng đồng dân tộc và sức mạnh của cá nhân người lao động"
   },
   {
-    "question": "Hồ Chí Minh không thừa nhận bản thân mình là:",
-    "options": ["Nhà khoa học", "Nhà thơ", "Nhà soạn nhạc", "Nhà chính trị chuyên nghiệp"],
-    "answer": "Nhà khoa học"
+    "question": "Theo tư tưởng Hồ Chí Minh, tính đại chúng của nền văn hóa được thể hiện ở chỗ?",
+    "options": [
+      "Nền văn hóa ấy phải phục vụ cho nhân dân và do nhân dân xây dựng nên",
+      "Đó là 1 nền văn hóa đa dạng",
+      "Đó là 1 nền văn hóa vượt ra khỏi biên giới quốc gia",
+      "Đó là 1 nền văn hóa rộng lớn"
+    ],
+    "answer": "Nền văn hóa ấy phải phục vụ cho nhân dân và do nhân dân xây dựng nên"
   },
   {
-    "question": "Một trong những yêu cầu cơ bản trong nghiên cứu tư tưởng Hồ Chí Minh là:",
-    "options": ["Đảm bảo thống nhất nguyên tắc tính Đảng và tính khoa học", "Đảm bảo thống nhất nguyên tắc tính Nhà nước và tính khoa học", "Đảm bảo thống nhất nguyên tắc tính Đảng và tính Nhà nước", "Đảm bảo thống nhất nguyên tắc tính triết học và tính khoa học"],
-    "answer": "Đảm bảo thống nhất nguyên tắc tính Đảng và tính Nhà nước"
+    "question": "Người cách mạng phải có [...], không có [...] thì dù tài giỏi đến mấy cũng không lãnh đạo được nhân dân",
+    "options": [
+      "Tài năng và đạo đức",
+      "Đạo đức cách mạng",
+      "Bản lĩnh chính trị",
+      "Uy tín"
+    ],
+    "answer": "Đạo đức cách mạng"
   },
   {
-    "question": "Nguyên tắc cơ bản nào sau đây cần phải quán triệt trong nghiên cứu tư tưởng Hồ Chí Minh?",
-    "options": ["Quan điểm kế thừa và phát triển", "Quan điểm kế thừa và toàn diện", "Quan điểm cách mạng và cụ thể", "Quan điểm toàn diện và cụ thể"],
-    "answer": "Quan điểm kế thừa và phát triển"
-  },
-  {
-    "question": "Theo Hồ Chí Minh, học chủ nghĩa Mác - Lênin nghĩa là gì?",
-    "options": ["Học thuộc các luận điểm lý luận.", "Để sống với nhau có tình, có nghĩa.", "Để chứng tỏ trình độ lý luận.", "Tất cả các phương án."],
-    "answer": "Tất cả các phương án."
-  },
-  {
-    "question": "Một trong những quan điểm cơ bản nghiên cứu tư tưởng Hồ Chí Minh là:",
-    "options": ["Quan điểm đồng nhất", "Quan điểm lịch sử cụ thể", "Quan điểm cách mạng", "Quan điểm phát triển"],
-    "answer": "Quan điểm lịch sử cụ thể"
-  },
-  {
-    "question": "Quan điểm nào sau đây thuộc về một trong những cơ sở phương pháp luận khi nghiên cứu tư tưởng Hồ Chí Minh?",
-    "options": ["Quan điểm toàn diện và hệ thống", "Quan điểm khách quan và cụ thể", "Quan điểm cách mạng và khoa học", "Quan điểm toàn diện và cụ thể"],
-    "answer": "Quan điểm toàn diện và hệ thống"
-  },
-  {
-    "question": "Tư tưởng tôn giáo nào sau đây ảnh hưởng đến sự hình thành tư tưởng Hồ Chí Minh?",
-    "options": ["Tư duy, hành động, ứng xử của Phật giáo", "Tư duy, hành động, ứng xử của Hồi giáo", "Tư duy, hành động, ứng xử của Ấn độ giáo"],
-    "answer": "Tư duy, hành động, ứng xử của Phật giáo"
-  },
-  {
-    "question": "Chọn phương án trả lời đúng với một trong những giai đoạn hình thành và phát triển tư tưởng Hồ Chí Minh?",
-    "options": ["Từ năm 1890 - 1911: Thời kỳ nghiên cứu, khảo sát thực tế, đến với chủ nghĩa Mác - Lênin.", "Từ năm 1921 - 1930: Thời kỳ hình thành cơ bản tư tưởng về con đường cách mạng Việt Nam.", "Từ năm 1911 - 1920: Thời kỳ hình thành tư tưởng yêu nước, chí hướng cứu nước"],
-    "answer": "Từ năm 1911 - 1920: Thời kỳ hình thành tư tưởng yêu nước, chí hướng cứu nước"
-  },
-  {
-    "question": "Nguyễn Ái Quốc là người Việt Nam thứ mấy tham gia vào Đảng Cộng sản Pháp?",
-    "options": ["Thứ nhất", "Thứ hai", "Thứ ba", "Thứ tư"],
-    "answer": "Thứ hai"
-  },
-  {
-    "question": "Một trong những truyền thống tốt đẹp của tư tưởng và văn hoá Việt Nam được Hồ Chí Minh tiếp thu để hình thành tư tưởng của mình là:",
-    "options": ["Chủ nghĩa yêu nước Việt Nam.", "Những mặt tích cực của Nho Giáo", "Tư tưởng vị tha của Phật giáo", "Tư tưởng bác ái của Thiên Chúa Giáo."],
-    "answer": "Chủ nghĩa yêu nước Việt Nam."
+    "question": "Bồi dưỡng thế hệ cách mạng cho đời sau là 1 việc [...] và rất cần thiết",
+    "options": [
+      "Không thể thiếu",
+      "Tương đối quan trọng",
+      "Rất quan trọng",
+      "Rất nên làm"
+    ],
+    "answer": "Rất quan trọng"
   }
 ]
